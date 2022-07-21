@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pypdf2 = "*"
+pdfplumber = "*"
+flask = "*"
+fitz = "*"
+pymupdf = "*"
+
+[dev-packages]
+jupyter = "*"
+
+[requires]
+python_version = "3.10"
